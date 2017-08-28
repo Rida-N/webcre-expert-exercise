@@ -16,8 +16,7 @@ jQuery(function ($) {
 			$next = $graphic.children().first();
 		}
 		$frontmost.removeClass('now');
-		$next.addClass('now');
-		
+		$next.addClass('now');	
 	}
 	setInterval(changeImage, 4000);
 });
