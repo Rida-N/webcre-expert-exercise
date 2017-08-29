@@ -120,11 +120,51 @@ nav ul li a:hover{
 /* 「結婚式場のコンセプト」ページ ここまで↑ */
 
 /* 「プランのご案内」ページ ここから↓ */
+table{
+	border-collapse: collapse;
+}
+caption{
+	text-align: left;
+	margin-bottom: 30px;
+}
+table th, table td{
+	padding: 15px;
+	border:1px solid #6c5f45;
+}
+table tr th:first-child{
+	width: 70px;
+}
+table tbody th,
+table tbody td{
+	vertical-align: top;
+}
+table thead tr th{
+	background-color: #eee8cc;
+}
+table tbody tr:nth-child(odd){
+	background-color: #ffffff;
+}
+table tbody tr:nth-child(even){
+	background-color: #f4f2f0;
+}
 
 /* 「プランのご案内」ページ ここまで↑ */
 
 /* 「ブライダルフェア」ページ ここから↓ */
-
+.gallery_box{
+	overflow: hidden;
+}
+.gallery_box figure{
+	margin: 0 0 15px 15px;
+	width: 180px;
+	float: left;
+}
+.gallery_box figure:first-child{
+	margin-left: 0;
+}
+.gallery_box:first-of-type{
+	margin-top: 30px;
+}
 /* 「ブライダルフェア」ページ ここまで↑ */
 
 /* 「お問い合わせ」ページ ここから↓ */
